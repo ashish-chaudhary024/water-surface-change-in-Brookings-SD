@@ -31,8 +31,10 @@ Open water is an important environmental indicator reflecting rainfall, snowmelt
 1. Landsat digital numbers were converted to Top of Atmosphere (TOA) reflectance:  
 Reflectance = (DN × 0.0000075) − 0.2
 2. NDWI was calculated using McFeeters (1996):
-NDWI = (Green − NIR) / (Green + NIR)
-3. - Green: Band 3  
+
+    NDWI = (Green − NIR) / (Green + NIR)
+
+- Green: Band 3  
 - NIR: Band 5  
 
 3. Brookings County boundary was applied using **Extract by Mask** in ArcGIS Pro.  
@@ -52,12 +54,12 @@ NDWI = (Green − NIR) / (Green + NIR)
 ---
 
 ## Repository Contents
-├── PPT/ # Final presentation
-├── NDWI_Maps/ # NDWI outputs (2013–2025)
-├── Classified_Maps/ # Water / Non-water maps
-├── Videos/ # NDWI temporal change animation
-├── Shapefile/ # Brookings County boundary
-└── README.md
+├── PPT/ # Final presentation  
+├── NDWI_Maps/ # NDWI outputs (2013–2025)  
+├── Classified_Maps/ # Water / Non-water maps  
+├── Videos/ # NDWI temporal change animation  
+├── Shapefile/ # Brookings County boundary  
+└── README.md  
 
 
 ---
